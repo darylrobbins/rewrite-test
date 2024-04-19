@@ -22,7 +22,7 @@ dependencies {
 
 rewrite {
     activeRecipe(
-        "org.openrewrite.java.migrate.Java8toJava11"
+        "org.sample.rewrite.AddMissingMethodImplementation"
     )
 }
 
