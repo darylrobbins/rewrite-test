@@ -13,7 +13,8 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    rewrite("org.openrewrite.recipe:rewrite-migrate-java:2.11.0")
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.9.0"))
+    rewrite("org.openrewrite.recipe:rewrite-migrate-java")
 }
 
 dependencies {
